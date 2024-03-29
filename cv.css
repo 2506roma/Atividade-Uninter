@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+img {
+  border-radius: 50%;
+  float: right;
+}
+.imag {
+  clear: both;
+}
+* {
+  max-width: 700px;
+  margin: auto;
+}
+div {
+  border-radius: 5px;
+}
+/* Extremidades */
+#header {
+  height: 40px;
+  width: 100%;
+  background-color: #baf6f3;
+  position: fixed;
+  z-index: 1;
+}
+#footer {
+  height: 50px;
+  width: 100%;
+  background-color: #baf6f3;
+  clear: both;
+  position: relative;
+}
+/* Lados */
+.left {
+  height: 1000px;
+  width: 45px;
+  background-color: #baf6f3;
+  float: left;
+  position: fixed;
+}
+
+.right {
+  height: 1000px;
+  width: 45px;
+  background-color: #baf6f3;
+  float: right;
+  position: inherit;
+}
+/* Meio */
+.stuff {
+  display: inline-block;
+  margin-top: 6px;
+  margin-left: 55px;
+  width: 75%;
+  height: 1000px;
+}
+/* Escolhendo a fonte*/
+p,
+li {
+  font-family: 'Arial';
+}
+/* Aumenta os titulos */
+.head {
+  font-weight: bold;
+  font-size: 20px;
+}
+#name {
+  font-family: 'Great Vibes', cursive;
+  float: right;
+  margin-top: 10px;
+  margin-right: 4%;
+}
+/* Tira o link*/
+a {
+  color: black;
+  text-decoration: none;
+}
+
+@media only screen and (max-width: 430px) {
+  .left,
+  .right {
+    display: none;
+  }
+  .stuff {
+    width: 100%;
+    margin-left: 10px;
+  }
+}

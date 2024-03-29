@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+
+body {
+    background-color: #cccccc;
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-areas: 
+        "header"
+        "nav"
+        "form"
+        "footer";
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 1em;
+    font: 1em sans-serif;
+    border: 1px solid #999;
+}
+
+label {
+    font-weight: bold;
+    padding-bottom: 5px;
+    display: inline-block;
+}
+
+button {
+    background-color: white;
+    border: 1px solid rgb(21, 4, 98);
+    color:  rgb(21, 4, 98);
+    font-weight: bold;
+    padding: 15px;
+    border-radius: 3px;
+}
+
+.card {
+    margin: 10px auto;
+    max-width: 500px;
+    padding: 20px;
+}
+
+header {
+    text-align: center;
+}
+
+nav {
+    background-color: #cccccc;
+    text-align: center;
+}
+
+.menu > li {
+    display: inline;
+    margin-right: 10px;
+    border: 1px solid black;
+    padding: 8px;
+    border-radius: 10px;
+    background-color: #5e5d5844;
+}
+
+.menu > li > a {
+    text-decoration: none;
+    color: black; 
+}
+
+form {
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+footer {
+    background-color: #cccccc;
+    text-align: center;
+    padding: 20px;
+    border-top: 1px solid #999;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.footer > p > a {
+    text-decoration: none;
+    color: #8a2be2;
+}
+
+#footer {
+    height: 50px;
+    width: 100%;
+    color: #08403daa;
+    clear: both;
+    position: relative;
+}
+
+#name {
+    font-family: 'Great Vibes', cursive;
+    float: right;
+    margin-top: 10px;
+    margin-right: 4%;
+}
+
+@media screen and (max-width: 768px) {
+    .card {
+        width: 90%;
+    }
+}
