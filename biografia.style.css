@@ -66,8 +66,14 @@ nav{
 .menu > li > a{
     text-decoration: none;
     color: black; 
-     
+    /* link toda largura do li */
+    display: inline-block; /* Faz o link ocupar toda a largura do li */
+    padding: 10px 20px; /* Adiciona preenchimento ao redor do link */
 }
+.menu li a:hover {
+    color: white;
+    
+  }
 /* Biografia */
 main{
     background-color:#5e5d5844;
@@ -75,6 +81,13 @@ main{
 main > p{
     margin-left: 20px;
     margin-right: 20px;
+    /* Organizando texto */
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 10px;
+    font-size: 16px;
+    line-height: 1.5;
+    text-align: justify;
 }
 
 /* Img */
@@ -153,6 +166,9 @@ footer{
         display: block; 
         margin-bottom: 10px; 
     }
+    main > p {
+        font-size: 14px;
+    }
 }
 /* Formulario */
 body{
@@ -189,13 +205,12 @@ a{
      aside > div , p{
         text-align: center;
      }
-     /* .personagens{
-        display: inline;
-     }
-      */
      .menu > li {
         display: block; 
         margin-bottom: 10px; 
+    }
+    main > p {
+        font-size: 14px;
     }
 }
 
@@ -225,4 +240,8 @@ a{
         display: block; 
         margin-bottom: 10px; 
     }
+    main > p {
+        font-size: 14px;
+    }
+    
 }

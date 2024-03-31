@@ -89,6 +89,18 @@ footer {
     clear: both;
     position: relative;
 }
+/* Menu */
+.menu > li > a{
+    text-decoration: none;
+    color: black; 
+    /* link toda largura do li */
+    display: inline-block; /* Faz o link ocupar toda a largura do li */
+    padding: 10px 20px; /* Adiciona preenchimento ao redor do link */
+}
+.menu li a:hover {
+    color: white;
+    
+  }
 
 #name {
     font-family: 'Great Vibes', cursive;
@@ -107,22 +119,11 @@ footer {
     }
 }
 @media (min-width: 250px) and (max-width: 420px) {
-    /* body {
-        background-color: #cccccc;
-        display: grid;
-        grid-template-columns: auto;
-        grid-template-rows: 5, auto;
-        grid-template-areas: 
-            "header"
-            "nav"
-            "nav"
-            "form"
-            "footer";
-    } */
     .menu > li {
         display: block; 
         margin-bottom: 10px; 
     }
+    
     .card {
         width: 80%;
     }
