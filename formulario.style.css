@@ -98,7 +98,32 @@ footer {
 }
 
 @media screen and (max-width: 768px) {
+    .menu > li {
+        display: block; 
+        margin-bottom: 10px; 
+    }
     .card {
         width: 90%;
+    }
+}
+@media (min-width: 250px) and (max-width: 420px) {
+    /* body {
+        background-color: #cccccc;
+        display: grid;
+        grid-template-columns: auto;
+        grid-template-rows: 5, auto;
+        grid-template-areas: 
+            "header"
+            "nav"
+            "nav"
+            "form"
+            "footer";
+    } */
+    .menu > li {
+        display: block; 
+        margin-bottom: 10px; 
+    }
+    .card {
+        width: 80%;
     }
 }
