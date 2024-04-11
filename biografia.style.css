@@ -95,6 +95,8 @@ aside{
     background-color:#5e5d5844 ;
 }
 .perfil{
+    
+    margin-top: 10px;
     margin-left: 10px;
     padding-right: 10px;
 }
@@ -153,6 +155,11 @@ footer{
             
         ;
      }
+     .perfil{
+    
+        margin-top: 20px;
+        
+    }
      .menu > li{
         width: 250px;
      }
